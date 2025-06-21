@@ -1,0 +1,30 @@
+{
+  "categories": [
+    {"id":"1", "name":"beauty", "Image":"../admin/inc/images/beauty/fragrances/men/eau-de-parfum/1/1.png", "parent_id":null},
+
+    {"id":"2", "name":"men fragrances", "Image":"../admin/inc/images/beauty/men/eau-de-parfum/2/1.jpg", "parent_id":"1"},
+
+    {"id":"3", "name":"women fragrances", "Image":"../admin/inc/images/beauty/fragrances/women/perfume/eau-de-parfum/29/1.jpg", "parent_id":"1"},
+
+    {"id":"4", "name":"body sprays", "Image":"../admin/inc/images/fragrances/men/body-sprays/1/1.jpg", "parent_id":"2"},
+
+    {"id":"5", "name":"eau de parfum", "Image":"../admin/inc/images/beauty/fragrances/men/eau-de-parfum/1/1.jpg", "parent_id":"2"},
+
+    {"id":"6", "name":"eau de toilette", "Image":"../admin/inc/images/beauty/fragrances/men/eau-de-toilette/2/1.jpg", "parent_id":"2"},
+
+    {"id":"7", "name":"perfume", "Image":"../admin/inc/images/beauty/fragrances/women/perfume/1/1.jpg", "parent_id":"3"},
+
+    {"id":"8", "name":"eau de parfum", "Image":"../admin/inc/images/beauty/fragrances/women/perfume/eau-de-parfum/32/1.jpg", "parent_id":"7"},
+
+    {"id":"9", "name":"eau de toilette", "Image":"../admin/inc/images/beauty/fragrances/women/perfume/eau-de-toilette/1.jpg", "parent_id":"7"},
+
+    {"id":"10", "name":"sets", "Image":"../admin/inc/images/beauty/fragrances/women/sets/1.jpg", "parent_id":"1"},
+
+    {"id":"11", "name":"tools & accesssories", "Image":"../admin/inc/images/beauty/fragrances/women/sets/1.jpg", "parent_id":"1"},
+
+    {"id":"12", "name":"refillable containers", "Image":"../admin/inc/images/beauty/fragrances/women/sets/1.jpg", "parent_id":"11"},
+
+    {"id":"13", "name":"spray bottles", "Image":"../admin/inc/images/beauty/tools&accesssories/refillablecontainers/spraybottles/1/1.jpg", "parent_id":"12"}
+
+  ]
+}
