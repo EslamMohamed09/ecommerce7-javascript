@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "sass": "^1.83.4"
+  },
+  "scripts": {
+    "build-css": "sass inc/styles/main.scss inc/styles/main.css",
+    "watch-css": "sass --watch inc/styles/main.scss:inc/styles/main.css",
+    "serve": "browser-sync start --server --files 'inc/styles/*.css, *.html'"
+  }
+}
