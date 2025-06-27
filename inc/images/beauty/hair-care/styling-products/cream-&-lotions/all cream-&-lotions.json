@@ -1,0 +1,23 @@
+{
+ "cream & lotions": [
+    {
+      "id":"1",
+      "title":"Vatika Naturals Moisture Soft Hammam Cream (225g) | Natural Extracts of Argan | Promotes Volume and Thick Hair Nourishment | For Men & Women",
+      "onSale":false,
+      "catId":"",
+      "tags":["cream", "lotion"],
+      "image":["../admin/inc/images/beauty/hair-care/styling-products/cream-&-lotions/1/1.jpg"],
+      "aboutThisItem":["POWERED BY NATURAL INGREDIENTS: Vatika Hammam Cream is enriched with the nourishing benefits of Argan oil. It helps control frizz, define curls, and lock in radiant shine while offering a soft, flexible hold.",
+                       "SUPPORTS HAIR GROWTH: Formulated with pure Argan oil, derived from Moroccan argan tree kernels, this cream naturally promotes longer, thicker, and faster hair growth, and has long been used as a traditional remedy for hair loss.",
+                       "RESTORES SHINE & ELASTICITY: With a lightweight, non-sticky texture, it seals in moisture to restore your hair’s elasticity and leave it beautifully glossy and smooth.",
+                       "ENHANCES CURLS & CONTROLS FRIZZ: This paraben- and sulfate-free formula is safe for all curl types and textures. It strengthens strands while defining curls and keeping hair soft, shiny, and frizz-free.",
+                       "HOW TO USE: Use as a pre- or post-shampoo treatment. Take a small amount in your palm and apply evenly to damp hair from roots to ends. Leave on for 15–30 minutes for optimal results."],
+      "price":"$5",
+      "salePrice":"$3",
+      "instock":"85",
+      "bought":"30",
+      "viewed":"180",
+      "rating":4
+    }
+  ]
+}
