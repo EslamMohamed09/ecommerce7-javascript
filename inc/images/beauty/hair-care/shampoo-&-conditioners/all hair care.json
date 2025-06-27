@@ -249,6 +249,24 @@
       "bought":"11",
       "viewed":"102",
       "rating":5
+    },
+    {
+      "id":"15",
+      "title":"Eva Optimum Care Recipe Nourishing Blend Shampoo Coconut Scent 350 Ml",
+      "onSale":false,
+      "catId":"",
+      "tags":["hair care", "shampoo"],
+      "image":["../admin/inc/images/beauty/hair-care/shampoo-&-conditioners/shampoos/15/1.jpg"],
+      "aboutThisItem":["Almond Oil",
+                       "free silicon",
+                       "free paraben",
+                       "free phthalate",
+                       "Hydrates and repairs damaged hair"],
+      "salePrice":"$4",
+      "instock":"29",
+      "bought":"27",
+      "viewed":"130",
+      "rating":5
     }
   ]
 }
