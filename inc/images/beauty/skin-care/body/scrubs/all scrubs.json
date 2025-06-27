@@ -161,6 +161,45 @@
       "bought":"53",
       "viewed":"260",
       "rating":4.5
+    },
+    {
+      "id":"10",
+      "title":"Starky scrub cream face & body scrub deep cleansing whitening skin with watermelon for all skin types-300ml",
+      "onSale":false,
+      "catId":"",
+      "tags":["scrubs", "skin care"],
+      "image":["../admin/inc/images/beauty/skin-care/body/scrubs/10/1.jpg"],
+      "aboutThisItem":["Face & Body Scrub",
+                       "Brand: Starky",
+                       "Made In:Egypt",
+                       "With Watermelon",
+                       "Size: 300ml"],
+      "price":"6",
+      "salePrice":"$5",
+      "instock":"37",
+      "bought":"57",
+      "viewed":"280",
+      "rating":4.5
+    },
+    {
+      "id":"11",
+      "title":"RAW AFRICAN | Pina Colada Exfoliator | 200 gm | Organic Body Scrub | Moisturizing and Exfoliating | Pineapple and Coconut Blend | Vegan | 100% Natural Essential Oils",
+      "onSale":false,
+      "catId":"",
+      "tags":["scrubs", "skin care"],
+      "image":["../admin/inc/images/beauty/skin-care/body/scrubs/11/1.jpg"],
+      "aboutThisItem":["100% NATURAL: Crafted without harsh chemicals, using a pure blend of fruit extracts, shea butter, aloe vera, mineral salts, and essential oils.",
+                       "TROPICAL AROMA: Features a vibrant, long-lasting pina colada-inspired scent.",
+                       "CLEAR, EVEN SKIN: Pineapple extract helps calm inflammation and promotes a more balanced skin tone.",
+                       "GENTLE EXFOLIATION: Buffs away dead skin cells, leaving your skin smooth and refreshed.",
+                       "SUITABLE FOR ALL SKIN TYPES: Mild and safe, even for the most sensitive skin.",
+                       "GIFT-READY: Complete the experience with our Pina Colada Body Wash and Body Lotion for a perfect pampering set."],
+      "price":"5",
+      "salePrice":"$2",
+      "instock":"17",
+      "bought":"33",
+      "viewed":"240",
+      "rating":4.5
     }
   ]
 }
