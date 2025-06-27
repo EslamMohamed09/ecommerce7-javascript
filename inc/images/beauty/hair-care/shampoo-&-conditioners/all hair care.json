@@ -267,6 +267,24 @@
       "bought":"27",
       "viewed":"130",
       "rating":5
+    },
+    {
+      "id":"16",
+      "title":"Herbal Essences Biorenew Argan oil of Morocco Shampoo, 400 ml",
+      "onSale":false,
+      "catId":"",
+      "tags":["hair care", "shampoo"],
+      "image":["../admin/inc/images/beauty/hair-care/shampoo-&-conditioners/shampoos/16/1.jpg"],
+      "aboutThisItem":["Brand: Herbal Essences",
+                       "Manufacturer Number: N/A",
+                       "Type: Shampoo",
+                       "Size: 400 ml",
+                       "Type: All Hairs"],
+      "salePrice":"$4",
+      "instock":"43",
+      "bought":"30",
+      "viewed":"120",
+      "rating":5
     }
   ]
 }
