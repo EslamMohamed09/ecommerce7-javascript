@@ -1,12 +1,12 @@
 {
- "serums": [
+ "smoothening": [
     {
       "id":"1",
       "title":"ORS Olive Oil Nourishing Hair Sheen Spray (85mL) | Provides Natural, Healthy Sheen to Dry and Thirsty Hair | For Smooth, Shiny and Frizz Free Hair",
       "onSale":false,
       "catId":"",
-      "tags":["hair care", "serum"],
-      "image":["../admin/inc/images/beauty/hair-care/styling-products/serums/1/1.jpg"],
+      "tags":["smoothening"],
+      "image":["../admin/inc/images/refinements/smoothening/1/1.jpg"],
       "aboutThisItem":["ALL-IN-ONE SOLUTION: ORS Olive Oil Nourishing Spray is enriched with natural ingredients to deeply nourish dry hair, enhancing both smoothness and shine.",
                        "DEEP HYDRATION: Instantly conditions and hydrates, making hair smooth, shiny, and manageable. Perfect for taming frizz, controlling flyaways, and easing out tangles.",
                        "KEY INGREDIENTS: Powered by Olive Oil, known for stimulating keratin production and supporting healthy follicle growth for stronger hair.",

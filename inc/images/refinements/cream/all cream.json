@@ -1,0 +1,24 @@
+{
+ "cream": [
+    {
+      "id":"1",
+      "title":"Vatika Naturals Deep Conditioning Hammam Cream (900g) | Enriched with Olive, Almond and Henna | Promotes Silky and Shiny Hair",
+      "onSale":false,
+      "catId":"",
+      "tags":["cream"],
+      "image":["../admin/inc/images/refinements/cream/1/1.jpg"],
+      "aboutThisItem":["EXPERIENCE THE POWER OF OLIVE: Olive oil acts as a natural moisture balancer, delivering essential nourishment to your hair. It enhances strength and elasticity, supporting healthy growth and reducing breakage.",
+                       "ENRICHED WITH ALMOND & HENNA EXTRACTS: Henna helps coat and protect hair, adding a natural shine, while almond extract provides vital nutrients that strengthen and soften hair from root to tip.",
+                       "ULTIMATE DEEP CONDITIONING TREATMENT: This hot oil therapy penetrates deeply into the scalp and roots, restoring your hair’s natural strength and vitality. It naturally promotes longer, thicker, and softer hair.",
+                       "PERFECT FOR DRY, DULL, AND DAMAGED HAIR: Transform brittle, lifeless strands into smooth, shiny, and healthy-looking hair. This nourishing formula revitalizes and strengthens hair, leaving it silky, manageable, and full of life.",
+                       "HOW TO USE: 1) Apply to wet hair after shampooing. 2) Wrap hair in a hot towel and leave for 10–15 minutes. 3) Rinse thoroughly with water."],
+      "price":"$6",
+      "salePrice":"$3",
+      "off":"5%",
+      "instock":"19",
+      "bought":"23",
+      "viewed":"110",
+      "rating":4
+    }
+  ]
+}
