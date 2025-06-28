@@ -1,0 +1,53 @@
+{
+ "lipsticks": [
+    {
+      "id":"1",
+      "title":"CYBELE Matte Lipstick N. 302 Nude",
+      "onSale":false,
+      "catId":"",
+      "tags":["lipsticks", "lipstick"],
+      "image":["../admin/inc/images/beauty/makeup/lips/lipsticks/1/1.jpg"],
+      "aboutThisItem":[],
+      "salePrice":"$3.5",
+      "instock":"24",
+      "bought":"34",
+      "viewed":"168",
+      "rating":4.5
+    },
+    {
+      "id":"2",
+      "title":"Luna Creamy Lipstick No. 914",
+      "onSale":false,
+      "catId":"",
+      "tags":["lipsticks", "lipstick"],
+      "image":["../admin/inc/images/beauty/makeup/lips/lipsticks/2/1.jpg"],
+      "aboutThisItem":["Rich Color & Long-Lasting Wear",
+                       "Infused with Vitamin A & E",
+                       "Creamy & Lightweight Formula",
+                       "Perfect for Daily Wear & Special Events"],
+      "salePrice":"$3.5",
+      "instock":"47",
+      "bought":"59",
+      "viewed":"224",
+      "rating":4
+    },
+    {
+      "id":"3",
+      "title":"L’Oréal Paris Color Rich Nude Intense Lipstick 174 Nu Insouciant",
+      "onSale":false,
+      "catId":"",
+      "tags":["lipsticks", "lipstick"],
+      "image":["../admin/inc/images/beauty/makeup/lips/lipsticks/3/1.jpg"],
+      "aboutThisItem":["Smooth creamy texture",
+                       "Glides on easily",
+                       "Intense, saturated colour in one coat",
+                       "Colour of the bullet is true to colour on the lips",
+                       "Provides a healthy look"],
+      "salePrice":"$11",
+      "instock":"41",
+      "bought":"54",
+      "viewed":"274",
+      "rating":5
+    }
+  ]
+}
