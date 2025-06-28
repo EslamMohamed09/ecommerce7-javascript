@@ -1,0 +1,60 @@
+{
+ "men's beard & mustache trimmers": [
+    {
+      "id":"1",
+      "title":"VGR Beard Trimmer Kit for Men Rechargeable Professional,6 in 1 Cordless Hair Clipper,21Pieces Beard Grooming Kit with Hair Clippers Trimmer Foil Shaver for Face,Body,Nose,Mustache",
+      "onSale":false,
+      "catId":"",
+      "tags":["men's beard", "mustache trimmers"],
+      "image":["../admin/inc/images/beauty/shaving-&-hair-removal/trimmers,clippers-&-body-groomers/men's-beard-&-mustache-trimmers/1/1.jpg"],
+      "aboutThisItem":["7-in-1 Multi-Functional Beard Grooming Kit: Achieve a sharp, clean look with ease using this all-in-one grooming set. Equipped with high-quality tools—including a T-blade trimmer, hair clippers, precision trimmer, micro shaver, nose trimmer, body trimmer, and two hair clips—this kit has everything you need for professional grooming at home or on the go.",
+                       "Fast Charging & Long-Lasting Battery: Powered by a rechargeable lithium-ion battery, the trimmer offers up to 180 minutes of use after just 1.5 hours of charging. Its lightweight and durable design makes it perfect for travel and daily grooming.",
+                       "High-Performance Motor: Featuring a powerful motor with speeds up to 6500RPM, this grooming kit cuts through thick hair smoothly and efficiently—without tugging or slowing down—delivering a comfortable trimming experience every time.",
+                       "Precision T-Blade Trimmer: Crafted with stainless steel, the ultra-sharp T-blade is rust-resistant and gentle on the skin, making it ideal for clean edges, fine detailing, and intricate beard styling.",
+                       "Washable, Detachable Blades:For easy maintenance, the trimmer comes with detachable and washable blades. Simply rinse under running water after use to keep your grooming tool clean and ready for the next trim. A must-have for effortless, everyday beard care."],
+      "price":"$19",
+      "salePrice":"$18",
+      "instock":"16",
+      "bought":"22",
+      "viewed":"140",
+      "rating":5
+    },
+    {
+      "id":"2",
+      "title":"VGR V-055 Professional Cordless Beard Hair Trimmer Kit Wireless Hair Grooming Trimmers with 4 Guide Combs Brush USB Cord for Men, Family or Pets Rechargeable Li-ion Battery 120 mins Runtime",
+      "onSale":false,
+      "catId":"",
+      "tags":["men's beard", "mustache trimmers"],
+      "image":["../admin/inc/images/beauty/shaving-&-hair-removal/trimmers,clippers-&-body-groomers/men's-beard-&-mustache-trimmers/2/1.jpg"],
+      "aboutThisItem":["Low Noise & Vibration: Engineered to minimize motor noise and reduce friction between moving and static blades, this trimmer ensures a quieter, smoother grooming experience for added comfort.",
+                       "Powerful Motor for All Hair Types: Equipped with a high-speed, pin-core motor, this device delivers strong, consistent performance with low noise. It handles all hair types with ease, making it ideal for trimming hair, beards, mustaches, sideburns, goatees, stubble, and other facial or body hair.",
+                       "Adjustable Precision & Guide Combs: Featuring 3-level fine-tuning and 4 guide combs (3mm, 6mm, 9mm, 12mm), this trimmer allows for precise control and customizable styling. Perfect for achieving a wide range of hairstyles and detailed grooming."],
+      "price":"$7",
+      "salePrice":"$6",
+      "instock":"38",
+      "bought":"48",
+      "viewed":"199",
+      "rating":3.5
+    },
+    {
+      "id":"3",
+      "title":"Hair Shaver, Hair Trimmer for Men, 180 Min Runtime, Precision Blade, LED Display, USB Charging cable 3 Guide Combs for men, Modern Design, V-228",
+      "onSale":false,
+      "catId":"",
+      "tags":["men's beard", "mustache trimmers"],
+      "image":["../admin/inc/images/beauty/shaving-&-hair-removal/trimmers,clippers-&-body-groomers/men's-beard-&-mustache-trimmers/3/1.jpg"],
+      "aboutThisItem":["2-in-1 Grooming Device:A versatile tool that combines a hair shaver and trimmer in one compact unit—perfect for both clean shaves and precise trims.",
+                       "Extended Battery Life: Delivers up to 180 minutes of use on a single charge, allowing for multiple grooming sessions without the need to recharge frequently.",
+                       "High-Precision Steel Blades: Engineered with sharp, high-performance blades for smooth, tug-free trimming and a close, comfortable shave every time.",
+                       "LED Display Screen: Features a built-in LED display that clearly shows battery level and charging status, keeping you informed during every use.",
+                       "USB Charging & Adjustable Lengths: Comes with a convenient USB charging cable and 3 guide combs to suit various hair lengths and styling needs.",
+                       "Stylish & Ergonomic Design: Sleek and modern with an ergonomic grip—designed for both aesthetic appeal and comfortable handling."],
+      "price":"$19",
+      "salePrice":"$18",
+      "instock":"49",
+      "bought":"55",
+      "viewed":"230",
+      "rating":5
+    }
+  ]
+}
