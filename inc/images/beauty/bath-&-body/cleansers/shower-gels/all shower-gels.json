@@ -1,0 +1,73 @@
+{
+ "shower gels": [
+    {
+      "id":"1",
+      "title":"NIVEA MEN 3in1 Shower Gel Body Wash, Power Fresh 24h Fresh Effect Citrus Scent, 250ml",
+      "onSale":false,
+      "catId":"",
+      "tags":["shower gels"],
+      "image":["../admin/inc/images/beauty/bath-&-body/cleansers/shower-gels/1/1.jpg"],
+      "aboutThisItem":["3-IN-1 MULTIUSE FORMULA: Ideal for body, hair, and face care.",
+                       "EFFECTIVE CLEANSING: Leaves skin feeling clean, revitalized, and energized.",
+                       "COOLING FRESHNESS: Infused with menthol and mint for a long-lasting, refreshing scent with a masculine touch.",
+                       "GENTLE ON SKIN: pH-balanced and dermatologically approved for skin compatibility."],
+      "salePrice":"$2.5",
+      "instock":"18",
+      "bought":"16",
+      "viewed":"80",
+      "rating":4.5
+    },
+    {
+      "id":"2",
+      "title":"JOHNSON’S Body Wash - Vita-Rich, Smoothies, Indulging, Yogurt, Peach & Coconut, 250ml",
+      "onSale":false,
+      "catId":"",
+      "tags":["shower gels"],
+      "image":["../admin/inc/images/beauty/bath-&-body/cleansers/shower-gels/2/1.jpg"],
+      "aboutThisItem":["Designed to provide lasting comfort for up to 48 hours",
+                       "Delicately scented with a sweet, fruity aroma",
+                       "Fast-absorbing, lightweight, and non-greasy texture",
+                       "Infused with nourishing yogurt, peach, and coconut extracts"],
+      "salePrice":"$2.5",
+      "instock":"18",
+      "bought":"28",
+      "viewed":"90",
+      "rating":5
+    },
+    {
+      "id":"3",
+      "title":"NIVEA Shower Gel Body Wash, Fresh Powerfruit Antioxidants Blueberry Scent, 250ml",
+      "onSale":false,
+      "catId":"",
+      "tags":["shower gels"],
+      "image":["../admin/inc/images/beauty/bath-&-body/cleansers/shower-gels/3/1.jpg"],
+      "aboutThisItem":["INVIGORATING shower gel that lathers richly to leave skin feeling refreshed.",
+                       "INFUSED WITH antioxidants and a vibrant blueberry scent.",
+                       "IQ HYDRA TECHNOLOGY delivers lasting moisture, even after towel drying.",
+                       "Eco-friendly: 98% biodegradable formula, microplastic-free, and packaged in a bottle made with 96% recycled plastic (excluding cap).",
+                       "Dermatologically tested for skin compatibility."],
+      "salePrice":"$2",
+      "instock":"47",
+      "bought":"33",
+      "viewed":"160",
+      "rating":4
+    },
+    {
+      "id":"4",
+      "title":"Lux Perfumed Shower Gel Romantic Hibiscus for 24 Hours Long Lasting Fragrance 500ML",
+      "onSale":false,
+      "catId":"",
+      "tags":["shower gels"],
+      "image":["../admin/inc/images/beauty/bath-&-body/cleansers/shower-gels/4/1.jpg"],
+      "aboutThisItem":["24-HOUR LASTING SCENT – Lux Body Wash wraps you in a captivating fragrance that lingers all day.",
+                       "Experience irresistibly soft, beautifully scented skin for up to 24 hours after each shower.",
+                       "This luxurious body wash transforms your routine with its rich, indulgent aroma.",
+                       "Infused with Everscent Essential Oils, it delivers a fine fragrance while gently caring for your skin."],
+      "salePrice":"$0.5",
+      "instock":"20",
+      "bought":"58",
+      "viewed":"194",
+      "rating":5
+    }
+  ]
+}
