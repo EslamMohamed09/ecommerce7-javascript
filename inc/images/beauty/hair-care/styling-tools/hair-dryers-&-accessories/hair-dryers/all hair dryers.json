@@ -1,0 +1,23 @@
+{
+ "hair dryer": [
+    {
+      "id":"1",
+      "title":"POLITUN Hair Dryer Professional - 5000 Watts, Fast Drying, Salon Smooth, Powerful Motor, 3 Temperature Settings, 2 Speeds, Detachable Air Concentrator, Overheat Protection, PT-V12",
+      "onSale":false,
+      "catId":"",
+      "tags":["hair dryer"],
+      "image":["../admin/inc/images/beauty/hair-care/styling-tools/hair-dryers-&-accessories/hair-dryers/1/1.jpg"],
+      "aboutThisItem":["High-Powered 5000W Performance: The POLITUN Professional Hair Dryer delivers an impressive 5000 watts of power for salon-level drying efficiency right at home.",
+                       "Quick Drying with a Sleek Finish: Designed to reduce drying time, this powerful dryer leaves your hair smooth, polished, and ready for any occasion.",
+                       "Salon-Quality Results at Home: Achieve professional styling results effortlessly with high-performance technology trusted by hairstylists and beauty enthusiasts alike.",
+                       "Premium Build for Long-Term Use: Crafted with durability in mind, the POLITUN hair dryer is built to withstand regular use and deliver consistent performance over time.",
+                       "Personalized Styling Control: Features three heat settings and two speed options to suit your styling needs—from fast drying to a cool, gentle breeze.",
+                       "Enhanced Safety & Convenience: Equipped with overheat protection for worry-free use. Includes a detachable concentrator nozzle for precise styling and a hanging loop for easy storage."],
+      "salePrice":"$15",
+      "instock":"13",
+      "bought":"26",
+      "viewed":"134",
+      "rating":4.5
+    }
+  ]
+}
