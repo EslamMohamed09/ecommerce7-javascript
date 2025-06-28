@@ -1,0 +1,29 @@
+{
+ "hair clippers": [
+    {
+      "id":"1",
+      "title":"Philips Series 3000 Hair Clipper Stainless Steel Blades, 75 Mins Cordless Use/8h Charge, 13 Length Settings, HC3520/15 - International Warranty",
+      "onSale":false,
+      "catId":"",
+      "tags":["hair care", "shampoo"],
+      "image":["../admin/inc/images/beauty/hair-care/hair-cutting-tools/hair-clippers-&-accessories/hair-clippers/1/1.jpg"],
+      "details":["Color: Silver",
+                 "Hair Type: All",
+                 "Item Weight: 0.38 Kilograms",
+                 "Brand Name: PHILIPS",
+                 "Power Source: Battery Powered",
+                 "Material: Stainless Steel",
+                 "Item Dimensions: 7.1 x 14.1 x 22.2 centimeters",
+                 "Blade Material: Stainless Steel",
+                 "Target Audience: Unisex-Adults",
+                 "Are batteries required?: Yes"],
+      "price":"51",
+      "salePrice":"$45",
+      "off":"7%",
+      "instock":"22",
+      "bought":"26",
+      "viewed":"190",
+      "rating":4.5
+    }
+  ]
+}
