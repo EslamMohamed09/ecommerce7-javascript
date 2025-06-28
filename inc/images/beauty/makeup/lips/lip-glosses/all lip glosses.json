@@ -1,0 +1,57 @@
+{
+ "lip glosses": [
+    {
+      "id":"1",
+      "title":"Amanda Milano Shock Out Lip Gloss, No. 13 Dark Pink",
+      "onSale":false,
+      "catId":"",
+      "tags":["lip glosses"],
+      "image":["../admin/inc/images/beauty/makeup/lips/lip-glosses/1/1.jpg"],
+      "aboutThisItem":["Provides a long-lasting touch of color without any sticky residue",
+                       "Highly pigmented liquid formula ensures extended wear",
+                       "Conditions lips while delivering a transfer-resistant finish",
+                       "Enhances lips with smooth, natural-looking definition"],
+      "salePrice":"$2",
+      "instock":"44",
+      "bought":"64",
+      "viewed":"234",
+      "rating":4
+    },
+    {
+      "id":"2",
+      "title":"Sandra Long Lasting Lip Gloss",
+      "onSale":false,
+      "catId":"",
+      "tags":["lip glosses"],
+      "image":["../admin/inc/images/beauty/makeup/lips/lip-glosses/2/1.jpg"],
+      "aboutThisItem":["Clear, eye-catching finish with radiant shine",
+                       "Rich, vibrant color paired with luminous gloss",
+                       "Hydrating and calming formula for ultimate comfort",
+                       "Leaves lips soft, smooth, and free from cracks",
+                       "User-friendly and effortless application"],
+      "salePrice":"$2.5",
+      "instock":"22",
+      "bought":"14",
+      "viewed":"134",
+      "rating":4.5
+    },
+    {
+      "id":"3",
+      "title":"essence Lipgloss Love It A Choco Lot! 01 Melted Bliss",
+      "onSale":false,
+      "catId":"",
+      "tags":["lip glosses"],
+      "image":["../admin/inc/images/beauty/makeup/lips/lip-glosses/3/1.jpg"],
+      "aboutThisItem":["Vivid Color Payoff: Delivers bold, vibrant shades with ease.",
+                       "Delicious Chocolate Fragrance: Infused with a sweet chocolate scent for an enjoyable experience.",
+                       "Natural Radiant Shine: Leaves lips with a healthy, luminous glow.",
+                       "Clean, Conscious Beauty: Vegan formula free from parabens, microplastic particles, nanoparticles, and gluten.",
+                       "Cruelty-Free Commitment: No animal testing—Cosnova is proudly listed with essence and CATRICE by PETA Germany and PETA International."],
+      "salePrice":"$7.5",
+      "instock":"66",
+      "bought":"68",
+      "viewed":"264",
+      "rating":5
+    }
+  ]
+}
