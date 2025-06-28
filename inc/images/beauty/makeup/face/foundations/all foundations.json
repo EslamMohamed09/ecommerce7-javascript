@@ -1,0 +1,59 @@
+{
+ "foundations": [
+    {
+      "id":"1",
+      "title":"Maybelline New York Fit Me Matte + Poreless FOUNDATION-110 porcelain",
+      "onSale":false,
+      "catId":"",
+      "tags":["foundation", "foundations"],
+      "image":["../admin/inc/images/beauty/makeup/face/foundations/1/1.jpg"],
+      "aboutThisItem":["Up to 16 Hours of Matte Wear: Delivers long-lasting, shine-free coverage that stays put all day.",
+                       "Oil-Free & Acne-Safe: Formulated without oils—won’t clog pores or trigger breakouts.",
+                       "Lightweight & Poreless Finish: Perfect for oily skin, this breathable foundation provides a smooth, pore-blurring effect.",
+                       "Advanced Matte Formula: Infused with clay micro-powders to absorb excess oil and reduce shine.",
+                       "Natural, Seamless Look: Leaves skin looking matte and even-toned with a flawless, natural finish.",
+                       "Skin-Friendly: Dermatologist-tested, allergy-tested, and non-comedogenic for safe everyday wear."],
+      "salePrice":"$7.5",
+      "instock":"44",
+      "bought":"64",
+      "viewed":"234",
+      "rating":4.5
+    },
+    {
+      "id":"2",
+      "title":"Dermatique Maquillage Corrective Foundation - Light - 30 ml",
+      "onSale":false,
+      "catId":"",
+      "tags":["foundation", "foundations"],
+      "image":["../admin/inc/images/beauty/makeup/face/foundations/2/1.jpg"],
+      "aboutThisItem":["Paraben free",
+                       "Suitable for all skin types",
+                       "With protection from the sun's rays"],
+      "price":"$6",
+      "salePrice":"$4",
+      "instock":"50",
+      "bought":"74",
+      "viewed":"280",
+      "rating":4.5
+    },
+    {
+      "id":"3",
+      "title":"Might Cinema Concealer Extreme BB-24 Hours-103",
+      "onSale":false,
+      "catId":"",
+      "tags":["foundation", "foundations"],
+      "image":["../admin/inc/images/beauty/makeup/face/foundations/3/1.jpg"],
+      "aboutThisItem":["Concealer Extreme BB",
+                       "Made in: Egypt",
+                       "Target Gender: Women",
+                       "Brand: Might Cinema",
+                       "Shade Number: 103"],
+      "price":"$4",
+      "salePrice":"$3",
+      "instock":"34",
+      "bought":"54",
+      "viewed":"240",
+      "rating":5
+    }
+  ]
+}
