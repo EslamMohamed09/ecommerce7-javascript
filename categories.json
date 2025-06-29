@@ -24,6 +24,22 @@
 
     {"id":"12", "name":"refillable containers", "Image":"../admin/inc/images/beauty/fragrances/women/sets/1.jpg", "parent_id":"11"},
 
-    {"id":"13", "name":"spray bottles", "Image":"../admin/inc/images/beauty/tools&accesssories/refillablecontainers/spraybottles/1/1.jpg", "parent_id":"12"}
+    {"id":"13", "name":"spray bottles", "Image":"../admin/inc/images/beauty/tools&accesssories/refillablecontainers/spraybottles/1/1.jpg", "parent_id":"12"},
+
+    {"id":"14", "name":"sets", "Image":"../admin/inc/images/beauty/", "parent_id":""},
+
+    {"id":"15", "name":"sets", "Image":"../admin/inc/images/beauty/", "parent_id":""},
+
+    {"id":"16", "name":"sets", "Image":"../admin/inc/images/beauty/", "parent_id":""},
+
+    {"id":"17", "name":"sets", "Image":"../admin/inc/images/beauty/", "parent_id":""},
+
+    {"id":"18", "name":"sets", "Image":"../admin/inc/images/beauty/", "parent_id":""},
+
+    {"id":"19", "name":"sets", "Image":"../admin/inc/images/beauty/", "parent_id":""},
+
+    {"id":"20", "name":"sets", "Image":"../admin/inc/images/beauty/", "parent_id":""},
+
+    {"id":"21", "name":"sets", "Image":"../admin/inc/images/beauty/", "parent_id":""}
   ]
 }
