@@ -26,20 +26,85 @@
 
     {"id":"13", "name":"spray bottles", "Image":"../admin/inc/images/beauty/tools&accesssories/refillablecontainers/spraybottles/1/1.jpg", "parent_id":"12"},
 
-    {"id":"14", "name":"sets", "Image":"../admin/inc/images/beauty/", "parent_id":""},
 
-    {"id":"15", "name":"sets", "Image":"../admin/inc/images/beauty/", "parent_id":""},
+    {"id":"14", "name":"bath & body", "Image":"../admin/inc/images/beauty/bath-&-body/cleansers/shower-gels/3/1.jpg", "parent_id":"1"},
 
-    {"id":"16", "name":"sets", "Image":"../admin/inc/images/beauty/", "parent_id":""},
+    {"id":"15", "name":"hair care", "Image":"../admin/inc/images/beauty/hair-care/shampoo-&-conditioners/shampoos/16/1.jpg", "parent_id":"1"},
 
-    {"id":"17", "name":"sets", "Image":"../admin/inc/images/beauty/", "parent_id":""},
+    {"id":"16", "name":"makeup", "Image":"../admin/inc/images/beauty/makeup/face/foundations/3/1.jpg", "parent_id":"1"},
 
-    {"id":"18", "name":"sets", "Image":"../admin/inc/images/beauty/", "parent_id":""},
+    {"id":"17", "name":"shaving & hair removal", "Image":"../admin/inc/images/beauty/shaving-&-hair-removal/trimmers,clippers-&-body-groomers/men's-beard-&-mustache-trimmers/2/1.jpg", "parent_id":"1"},
 
-    {"id":"19", "name":"sets", "Image":"../admin/inc/images/beauty/", "parent_id":""},
+    {"id":"18", "name":"skin care", "Image":"../admin/inc/images/beauty/skin-care/body/scrubs/1/1.jpg", "parent_id":"1"},
 
-    {"id":"20", "name":"sets", "Image":"../admin/inc/images/beauty/", "parent_id":""},
 
-    {"id":"21", "name":"sets", "Image":"../admin/inc/images/beauty/", "parent_id":""}
+
+    {"id":"19", "name":"cleansers", "Image":"../admin/inc/images/beauty/bath-&-body/cleansers/shower-gels/1/1.jpg", "parent_id":"14"},
+
+    {"id":"20", "name":"hair cutting tools", "Image":"../admin/inc/images/beauty/hair-care/hair-cutting-tools/hair-clippers-&-accessories/hair-clippers/1/1.jpg", "parent_id":"15"},
+
+    {"id":"21", "name":"shampoo & conditioners", "Image":"../admin/inc/images/beauty/hair-care/shampoo-&-conditioners/shampoos/2/1.jpg", "parent_id":"15"},
+
+    {"id":"22", "name":"styling products", "Image":"../admin/inc/images/beauty/hair-care/styling-products/serums/1/1.jpg", "parent_id":"15"},
+
+    {"id":"23", "name":"styling tools", "Image":"../admin/inc/images/beauty/hair-care/styling-tools/hair-dryers-&-accessories/hair-dryers/1/1.jpg", "parent_id":"15"},
+
+    {"id":"24", "name":"face", "Image":"../admin/inc/images/beauty/makeup/face/concealers-&-correctors/1/1.jpg", "parent_id":"16"},
+
+    {"id":"25", "name":"lips", "Image":"../admin/inc/images/beauty/makeup/lips/lip-glosses/1/1.jpg", "parent_id":"16"},
+
+    {"id":"26", "name":"trimmers, clippers & body groomers", "Image":"../admin/inc/images/beauty/shaving-&-hair-removal/trimmers,clippers-&-body-groomers/men's-beard-&-mustache-trimmers/2/1.jpg", "parent_id":"17"},
+
+    {"id":"27", "name":"body", "Image":"../admin/inc/images/beauty/skin-care/body/scrubs/3/1.jpg", "parent_id":"18"},
+
+    {"id":"28", "name":"face", "Image":"../admin/inc/images/beauty/skin-care/face/cleansers/face-wash/1/1.jpg", "parent_id":"18"},
+
+    {"id":"29", "name":"makeup removers", "Image":"../admin/inc/images/beauty/skin-care/makeup-removers/makeup-cleansing-water/1/1.jpg", "parent_id":"18"},
+
+    {"id":"30", "name":"suncare & tanning", "Image":"../admin/inc/images/beauty/skin-care/suncare-&-tanning/sunscreen/body-sunscreen/1/1.jpg", "parent_id":"18"},
+
+    {"id":"31", "name":"shower gels", "Image":"../admin/inc/images/beauty/bath-&-body/cleansers/shower-gels/2/1.jpg", "parent_id":"19"},
+
+    {"id":"32", "name":"solid soap bars", "Image":"../admin/inc/images/beauty/bath-&-body/cleansers/solid-soap-bars/2/1.jpg", "parent_id":"19"},
+
+
+    {"id":"33", "name":"hair clippers & accessories", "Image":"../admin/inc/images/beauty/hair-care/hair-cutting-tools/hair-clippers-&-accessories/hair-clippers/1/1.jpg", "parent_id":"20"},
+
+    {"id":"34", "name":"hair clippers", "Image":"../admin/inc/images/beauty/hair-care/hair-cutting-tools/hair-clippers-&-accessories/hair-clippers/1/1.jpg", "parent_id":"33"},
+
+    {"id":"35", "name":"shampoos", "Image":"../admin/inc/images/beauty/hair-care/shampoo-&-conditioners/shampoos/1/1.jpg", "parent_id":"21"},
+
+    {"id":"36", "name":"cream & lotions", "Image":"../admin/inc/images/beauty/hair-care/hair-care/styling-products/cream-&-lotions/1/1.jpg", "parent_id":"22"},
+
+    {"id":"37", "name":"serums", "Image":"../admin/inc/images/beauty/hair-care/styling-products/serums/1/1.jpg", "parent_id":"22"},
+
+    {"id":"38", "name":"hair dryers & accessories", "Image":"../admin/inc/images/beauty/hair-care/styling-tools/hair-dryers-&-accessories/hair-dryers/1.jpg", "parent_id":"23"},
+
+    {"id":"39", "name":"men's beard & mustache trimmers", "Image":"../admin/inc/images/beauty/shaving-&-hair-removal/trimmers,clippers-&-body-groomers/men's-beard-&-mustache-trimmers/2/1.jpg", "parent_id":"26"},
+
+    {"id":"40", "name":"hair dryers", "Image":"../admin/inc/images/beauty/hair-care/styling-tools/hair-dryers-&-accessories/hair-dryers/1.jpg", "parent_id":"38"},
+
+    {"id":"41", "name":"concealers & correctors", "Image":"../admin/inc/images/beauty/makeup/face/concealers-&-correctors/4/1.jpg", "parent_id":"24"},
+
+    {"id":"42", "name":"foundations", "Image":"../admin/inc/images/beauty/makeup/face/foundations/1/1.jpg", "parent_id":"24"},
+
+    {"id":"43", "name":"lip-glosses", "Image":"../admin/inc/images/beauty/makeup/lips/lip-glosses/1/1.jpg", "parent_id":"25"},
+
+    {"id":"44", "name":"lipsticks", "Image":"../admin/inc/images/beauty/makeup/lips/lipsticks/1/1.jpg", "parent_id":"25"},
+
+    {"id":"45", "name":"scrubs", "Image":"../admin/inc/images/beauty/skin-care/body/scrubs/4/1.jpg", "parent_id":"27"},
+
+    {"id":"46", "name":"cleansers", "Image":"../admin/inc/images/beauty/skin-care/face/cleansers/face-wash/2/1.jpg", "parent_id":"28"},
+
+    {"id":"47", "name":"face-wash", "Image":"../admin/inc/images/beauty/skin-care/face/cleansers/face-wash/3/1.jpg", "parent_id":"46"},
+
+    {"id":"48", "name":"makeup cleansing water", "Image":"../admin/inc/images/beauty/skin-care/makeup-removers/makeup-cleansing-water/1/1.jpg", "parent_id":"29"},
+
+    {"id":"49", "name":"sunscreen", "Image":"../admin/inc/images/beauty/skin-care/suncare-&-tanning/sunscreen/body-sunscreen/2/1.jpg", "parent_id":"30"},
+
+    {"id":"50", "name":"body sunscreen", "Image":"../admin/inc/images/beauty/kin-care/suncare-&-tanning/sunscreen/body-sunscreen/4/1.jpg", "parent_id":"49"},
+
+    {"id":"51", "name":"facial sunscreen", "Image":"../admin/inc/images/beauty/skin-care/suncare-&-tanning/sunscreen/facial-sunscreen/1/1.jpg", "parent_id":"49"}
+
   ]
 }
