@@ -26,7 +26,6 @@
 
     {"id":"13", "name":"spray bottles", "Image":"../admin/inc/images/beauty/tools&accesssories/refillablecontainers/spraybottles/1/1.jpg", "parent_id":"12"},
 
-
     {"id":"14", "name":"bath & body", "Image":"../admin/inc/images/beauty/bath-&-body/cleansers/shower-gels/3/1.jpg", "parent_id":"1"},
 
     {"id":"15", "name":"hair care", "Image":"../admin/inc/images/beauty/hair-care/shampoo-&-conditioners/shampoos/16/1.jpg", "parent_id":"1"},
@@ -36,8 +35,6 @@
     {"id":"17", "name":"shaving & hair removal", "Image":"../admin/inc/images/beauty/shaving-&-hair-removal/trimmers,clippers-&-body-groomers/men's-beard-&-mustache-trimmers/2/1.jpg", "parent_id":"1"},
 
     {"id":"18", "name":"skin care", "Image":"../admin/inc/images/beauty/skin-care/body/scrubs/1/1.jpg", "parent_id":"1"},
-
-
 
     {"id":"19", "name":"cleansers", "Image":"../admin/inc/images/beauty/bath-&-body/cleansers/shower-gels/1/1.jpg", "parent_id":"14"},
 
@@ -66,7 +63,6 @@
     {"id":"31", "name":"shower gels", "Image":"../admin/inc/images/beauty/bath-&-body/cleansers/shower-gels/2/1.jpg", "parent_id":"19"},
 
     {"id":"32", "name":"solid soap bars", "Image":"../admin/inc/images/beauty/bath-&-body/cleansers/solid-soap-bars/2/1.jpg", "parent_id":"19"},
-
 
     {"id":"33", "name":"hair clippers & accessories", "Image":"../admin/inc/images/beauty/hair-care/hair-cutting-tools/hair-clippers-&-accessories/hair-clippers/1/1.jpg", "parent_id":"20"},
 
@@ -104,7 +100,13 @@
 
     {"id":"50", "name":"body sunscreen", "Image":"../admin/inc/images/beauty/kin-care/suncare-&-tanning/sunscreen/body-sunscreen/4/1.jpg", "parent_id":"49"},
 
-    {"id":"51", "name":"facial sunscreen", "Image":"../admin/inc/images/beauty/skin-care/suncare-&-tanning/sunscreen/facial-sunscreen/1/1.jpg", "parent_id":"49"}
+    {"id":"51", "name":"facial sunscreen", "Image":"../admin/inc/images/beauty/skin-care/suncare-&-tanning/sunscreen/facial-sunscreen/1/1.jpg", "parent_id":"49"},
+
+    {"id":"52", "name":"refinements", "Image":"../admin/inc/images/refinements/cream/1/1.jpg", "parent_id":null},
+
+    {"id":"53", "name":"cream", "Image":"../admin/inc/images/refinements/cream/1/1.jpg", "parent_id":"52"},
+
+    {"id":"54", "name":"smoothening", "Image":"../admin/inc/images/refinements/smoothening/1/1.jpg", "parent_id":"52"}
 
   ]
 }
