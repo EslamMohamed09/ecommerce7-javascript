@@ -107,6 +107,5 @@
     {"id":"53", "name":"cream", "Image":"../admin/inc/images/refinements/cream/1/1.jpg", "parent_id":"52"},
 
     {"id":"54", "name":"smoothening", "Image":"../admin/inc/images/refinements/smoothening/1/1.jpg", "parent_id":"52"}
-
   ]
 }
