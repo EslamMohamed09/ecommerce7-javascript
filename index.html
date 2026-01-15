@@ -55,13 +55,13 @@
 </header>
 
 <main>
-<section class="hero-section" id="hero">
+<section class="hero-section">
     <div class="hero-slider-container">
 
         <div class="hero-slides-wrapper">
 
-            <div class="hero-slide active" data-slide="0"> <!-- Slide 1 -->
-                <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=1920&q=80')"></div>
+            <div class="hero-slide-item active" data-slide="0"> <!-- Slide 1 -->
+                <div class="slide-bg" style="background-image:url('https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=1920&q=80')"></div>
                 <div class="slide-overlay"></div>
                 <div class="slide-content">
                     <span class="slide-label">New Collection</span>
@@ -71,7 +71,7 @@
                 </div>
             </div>
             
-            <div class="hero-slide" data-slide="1"> <!-- Slide 2 -->
+            <div class="hero-slide-item" data-slide="1"> <!-- Slide 2 -->
                 <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=1920&q=80')"></div>
                 <div class="slide-overlay"></div>
                 <div class="slide-content">
@@ -82,7 +82,7 @@
                 </div>
             </div>
             
-            <div class="hero-slide" data-slide="2"> <!-- Slide 3 -->
+            <div class="hero-slide-item" data-slide="2"> <!-- Slide 3 -->
                 <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=1920&q=80')"></div>
                 <div class="slide-overlay"></div>
                 <div class="slide-content">
@@ -95,13 +95,8 @@
 
         </div>
 
-        <div class="hero-controls">
-            <div class="hero-progress">
-              <button class="progress-dot active" data-slide="0"><span></span></button>
-              <button class="progress-dot" data-slide="1"><span></span></button>
-              <button class="progress-dot" data-slide="2"><span></span></button>
-            </div>
-        </div>
+        <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+        <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
 
         <div class="scroll-indicator">
            <span>Scroll</span>
