@@ -1223,8 +1223,9 @@ img {max-width:100%;
                        align-items:center;
                        gap:1.2rem;
 
-            .action-btn {color:var(--yellow-muted);
-                         padding:0.4rem;
+            .action-btn {padding:0.4rem;
+                         color:var(--yellow-muted);
+                         background:transparent;
                          transition:var(--transition-fast);
 
                 &:hover {color:var(--gold);}
@@ -1233,17 +1234,17 @@ img {max-width:100%;
             .cart-btn {position:relative;}
 
             .cart-count {position:absolute;
-                         top:-4px;
-                         right:-4px;
-                         font-size:0.6rem;
-                         background:var(--gold);
-                         color:var(--green24);
-                         width:14px;
-                         height:14px;
-                         border-radius:50%;
+                         top:-3px;
+                         right:-3px;
                          display:flex;
                          align-items:center;
-                         justify-content:center;}
+                         justify-content:center;
+                         font-size:0.6rem;
+                         color:var(--green24);
+                         background:var(--gold);
+                         width:14px;
+                         height:14px;
+                         border-radius:50%;}
 
             .mobile-toggle {display:none;
                             flex-direction:column;
@@ -1265,7 +1266,6 @@ img {max-width:100%;
  ******
 */
 .hero-section {height:100vh;
-            //    min-height:650px;
                padding:0;
                overflow:hidden;
                background-color:var(--green24);

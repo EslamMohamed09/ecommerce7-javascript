@@ -1383,8 +1383,9 @@ img {
   gap: 1.2rem;
 }
 .header .header-container .actions-btns .action-btn {
-  color: var(--yellow-muted);
   padding: 0.4rem;
+  color: var(--yellow-muted);
+  background: transparent;
   transition: var(--transition-fast);
 }
 .header .header-container .actions-btns .action-btn:hover {
@@ -1395,17 +1396,17 @@ img {
 }
 .header .header-container .actions-btns .cart-count {
   position: absolute;
-  top: -4px;
-  right: -4px;
-  font-size: 0.6rem;
-  background: var(--gold);
-  color: var(--green24);
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
+  top: -3px;
+  right: -3px;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 0.6rem;
+  color: var(--green24);
+  background: var(--gold);
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
 }
 .header .header-container .actions-btns .mobile-toggle {
   display: none;
