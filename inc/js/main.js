@@ -1,63 +1,10 @@
-//   const heroSlider = {
-//     slides: document.querySelectorAll('.hero-slide'),
-//     dots: document.querySelectorAll('.progress-dot'),
-//     currentIndex: 0,
-//     interval: null,
-//     duration: 6000, // 6 seconds per slide
-    
-//     init() {
-//       if (this.slides.length === 0) return;
-      
-//       // Set up dot click handlers
-//       this.dots.forEach((dot, index) => {
-//         dot.addEventListener('click', () => {
-//           this.goToSlide(index);
-//           this.resetInterval();
-//         });
-//       });
-      
-//       // Start auto-play
-//       this.startInterval();
-//     },
-    
-//     goToSlide(index) {
-//       // Remove active state from current slide
-//       this.slides[this.currentIndex].classList.remove('active');
-//       this.dots[this.currentIndex].classList.remove('active');
-      
-//       // Update index
-//       this.currentIndex = index;
-      
-//       // Add active state to new slide
-//       this.slides[this.currentIndex].classList.add('active');
-//       this.dots[this.currentIndex].classList.add('active');
-//     },
-    
-//     nextSlide() {
-//       const nextIndex = (this.currentIndex + 1) % this.slides.length;
-//       this.goToSlide(nextIndex);
-//     },
-    
-//     startInterval() {
-//       this.interval = setInterval(() => {
-//         this.nextSlide();
-//       }, this.duration);
-//     },
-    
-//     resetInterval() {
-//       clearInterval(this.interval);
-//       this.startInterval();
-//     }
-//   };
-  
-//   heroSlider.init();
-
 if(document.querySelector(".hero-section")){
 
 function heroSlider(options){
 
     const {
         sectionSelector ='.slider-section',
+        sliderContainerSelector = '.slider-container',
         sliderWrapperSelector = '.slider-wrapper',
         prevBtnSelector = '.prev-btn',
         nextBtnSelector = '.next-btn',
@@ -65,6 +12,7 @@ function heroSlider(options){
     } = options;
 
     let section = document.querySelector(sectionSelector);
+    let sliderContainer = document.querySelector(sliderContainerSelector);
     let sliderWrapper = document.querySelector(sliderWrapperSelector);
     let slides = Array.from(sliderWrapper.children);
     let prevBtn = document.querySelector(prevBtnSelector);
@@ -85,11 +33,13 @@ function heroSlider(options){
     function buildIndicators(){
         dotsWrapper = document.createElement('ul');
         dotsWrapper.classList.add('dots-list');
-        section.appendChild(dotsWrapper);
+        sliderContainer.appendChild(dotsWrapper);
 
         for (let i=0; i<slides.length; i++) {
             const indicator = document.createElement('li');
-            indicator.setAttribute('data-index', i);
+                  indicator.setAttribute('data-index', i);
+            const span = document.createElement('span');
+            indicator.appendChild(span);
             dotsWrapper.appendChild(indicator);
         
             indicator.addEventListener('click', () => {
@@ -212,10 +162,10 @@ function heroSlider(options){
     prevBtn.addEventListener('click', prevSlide);
     nextBtn.addEventListener('click', nextSlide);
     
-    section.addEventListener('mouseenter', stopSlider);
-    section.addEventListener('mouseleave', startSlider);
-    prevBtn.addEventListener('mouseenter', stopSlider);
-    nextBtn.addEventListener('mouseenter', stopSlider);
+    // section.addEventListener('mouseenter', stopSlider);
+    // section.addEventListener('mouseleave', startSlider);
+    // prevBtn.addEventListener('mouseenter', stopSlider);
+    // nextBtn.addEventListener('mouseenter', stopSlider);
 
     sliderWrapper.addEventListener('mousedown', startDrag);
     sliderWrapper.addEventListener('mousemove', duringDrag);
@@ -239,14 +189,15 @@ function heroSlider(options){
     });
 
     section.querySelectorAll('.hero-slider-item .content h1').forEach((h1) => {
-      h1.textContent = h1.textContent.split(" ").slice(0,6).join(" ");
+      h1.textContent = h1.textContent.split(" ").slice(0,11).join(" ");
     });
 }
 
 heroSlider({sectionSelector:'.hero-section', 
-            sliderWrapperSelector:'.hero-section .hero-slides-wrapper', 
-            prevBtnSelector:'.hero-section .prev-btn',
-            nextBtnSelector:'.hero-section .next-btn',
+            sliderContainerSelector:'.hero-section .hero-slider-container',
+            sliderWrapperSelector:'.hero-section .hero-slider-container .hero-slides-wrapper',
+            prevBtnSelector:'.hero-section .hero-slider-container .prev-btn',
+            nextBtnSelector:'.hero-section .hero-slider-container .next-btn',
 });
 
 }
