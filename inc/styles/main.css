@@ -56,6 +56,9 @@
   --violet14:#09020e;
   --transparent-violet:rgba(99, 49, 192, 0.137);
   --gold:#C9A962;
+  --light-gold:#D4BC7D;
+  --dark-gold:#A68B4B;
+  --muted-gold:rgba(201, 169, 98, 0.15);
   --yellow:#fafaf6;
   --yellow2:#f5f2eb;
   --yellow3:#f8f8e4;
@@ -330,10 +333,11 @@
   --text-md:clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
   --text-lg:clamp(1.1rem, 1rem + 0.5vw, 1.25rem);
   --text-xl:clamp(1.25rem, 1.1rem + 0.75vw, 1.5rem);
-  --text-2xl:clamp(1.5rem, 1.25rem + 1.25vw, 2rem);
-  --text-3xl:clamp(1.75rem, 1.4rem + 1.75vw, 2.5rem);
-  --text-4xl:clamp(2rem, 1.5rem + 2.5vw, 3.25rem);
-  --text-5xl:clamp(2.5rem, 1.75rem + 3.75vw, 4.5rem);
+  --text-2xl:clamp(1.375rem, 1.175rem + 1vw, 1.75rem);
+  --text-3xl:clamp(1.5rem, 1.25rem + 1.25vw, 2rem);
+  --text-4xl:clamp(1.75rem, 1.4rem + 1.75vw, 2.5rem);
+  --text-5xl:clamp(2rem, 1.5rem + 2.5vw, 3.25rem);
+  --text-6xl:clamp(2.5rem, 1.75rem + 3.75vw, 4.5rem);
   --text-hero:clamp(3rem, 2rem + 5vw, 6rem);
   /* Space */
   --space-xxs:0.25rem;
@@ -610,6 +614,7 @@
 body {
   overflow-x: hidden;
   background-color: var(--background-color);
+  font-family: var(--font-sans);
 }
 
 html {
@@ -642,12 +647,12 @@ html {
 }
 
 /*
- ============= 
+ ===========
   # GLOBAL
- =============
+ ===========
 */
 section {
-  padding: 2rem 7%;
+  padding: 3rem 7%;
   margin: 0 !important;
   transition: padding-top 0.05s ease;
 }
@@ -973,10 +978,11 @@ img {
 }
 .section-header {
   text-align: center;
-  margin-bottom: var(--space-2xl);
+  margin-bottom: var(--space-3xl);
+  position: relative;
 }
 .section-header .section-header-subtitle {
-  font-size: var(--text-xs);
+  font-size: var(--text-sm);
   font-weight: var(--weight-semibold);
   letter-spacing: var(--tracking-widest);
   text-transform: uppercase;
@@ -985,68 +991,21 @@ img {
 }
 .section-header .section-header-title {
   font-family: var(--font-serif);
-  font-size: var(--text-4xl);
+  font-size: var(--text-5xl);
   font-weight: var(--weight-regular);
   color: var(--color-text-primary);
   margin-bottom: var(--space-md);
 }
-.section-header .section-header-divider {
-  width: 60px;
+.section-header::after {
+  content: "";
+  position: absolute;
+  bottom: -1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 5rem;
   height: 2px;
-  background: linear-gradient(90deg, var(--gold), var(--gold-light));
+  background: linear-gradient(90deg, var(--gold), var(--light-gold));
   margin: 0 auto;
-}
-
-.page-heading {
-  text-align: center;
-  margin: 2rem auto 4rem;
-  text-transform: uppercase;
-  border-radius: 0.2rem;
-  padding: 1rem 0;
-  font-size: 1.8rem;
-  font-weight: bold;
-  color: #b6d6f3;
-  background: radial-gradient(rgb(0, 80, 134), #3b003b);
-}
-
-.block-heading {
-  width: 100%;
-  margin: 1.2rem 0 2rem;
-  padding: 0;
-  position: relative;
-}
-.block-heading .block-heading-title {
-  display: inline-block;
-  font-size: 1.8rem;
-  font-weight: bold;
-  margin: 0;
-  padding: 0;
-  color: var(--gray10);
-  position: relative;
-}
-.block-heading .block-heading-title::after {
-  content: "";
-  height: 3px;
-  width: 100%;
-  position: absolute;
-  left: 0;
-  bottom: -0.6rem;
-  background-color: var(--black2);
-}
-.block-heading::before {
-  content: "";
-  height: 3px;
-  width: 100%;
-  position: absolute;
-  left: 0;
-  bottom: -0.6rem;
-  background-color: var(--gray3);
-}
-@media (max-width: 711px) {
-  .block-heading .block-heading-title {
-    text-align: center;
-    font-size: 1.5rem;
-  }
 }
 
 .pass-input {
@@ -1388,9 +1347,8 @@ img {
   list-style: none;
 }
 .header .header-container nav .nav-list .nav-link {
-  font-size: 0.9rem;
-  font-weight: 300;
-  letter-spacing: 0.15em;
+  font-size: var(--text-base);
+  letter-spacing: 0.1rem;
   text-transform: uppercase;
   color: var(--yellow-muted);
   position: relative;
@@ -1796,14 +1754,14 @@ img {
 }
 .journal-section .cards-holder .journal-card .journal-card-content .journal-card-title a {
   color: var(--gray12);
-  font-size: var(--text-xl);
+  font-size: var(--text-2xl);
 }
 .journal-section .cards-holder .journal-card .journal-card-content .journal-card-title a:hover {
   color: var(--color-accent);
 }
 .journal-section .cards-holder .journal-card .journal-card-content .journal-card-excerpt {
-  font-size: var(--text-sm);
-  color: var(--gay5);
+  font-size: var(--text-base);
+  color: var(--gray9);
   line-height: var(--leading-relaxed);
   margin-bottom: var(--space-md);
 }
