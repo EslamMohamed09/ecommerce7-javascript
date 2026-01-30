@@ -1,3 +1,8 @@
+/* 
+ ######################
+ #### HERO SECTION ####
+ ######################
+*/
 if(document.querySelector(".hero-section")){
 
 function heroSlider(options){
@@ -202,8 +207,50 @@ heroSlider({sectionSelector:'.hero-section',
 
 }
 
+/* 
+ #############################
+ #### BEST SELLER SECTION ####
+ #############################
+*/
+animatedFilterWithTabs(document.querySelectorAll('.best-seller-filter-section .tabs-holder .filter-btn'),
+                       document.querySelectorAll('.best-seller-filter-section .products-holder .product-card'));
+
 /*
  ######################
  ####### GLOBAL #######
  ######################
 */
+function animatedFilterWithTabs(tabs, Items) {
+
+  tabs = Array.isArray ? tabs : Array.from(tabs);
+  Items = Array.isArray ? Items : Array.from(Items);
+
+  function showItems(filterClass) {
+    Items.forEach((item) => {
+      const isActive = item.classList.contains(filterClass);
+      item.classList.toggle('item-active', isActive);
+    });
+  }
+
+  tabs[0].classList.add('button-active');
+  Items.forEach((item) => {
+    if (item.classList.contains('item-active')) { item.classList.remove('item-active') }
+  });
+
+  const firstTabFilter = tabs[0].getAttribute('filter-click');
+  showItems(firstTabFilter);
+
+  tabs.forEach((tab) => {
+    tab.addEventListener('click', function () {
+
+      tabs.forEach((btn) => { btn.classList.remove('button-active'); });
+      this.classList.add('button-active');
+
+      Items.forEach((item) => {
+        if (item.classList.contains('item-active')) { item.classList.remove('item-active') }
+      });
+
+      showItems(this.getAttribute('filter-click'));
+    });
+  });
+}
