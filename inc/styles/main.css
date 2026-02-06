@@ -295,22 +295,10 @@
   --off-white:#f8f9fa;
   --black:#000;
   --black2:#000;
-  --primary:#ff5a3c;
-  --primary1:#e20202;
-  --primary2:#fb3c7f;
-  --primary3:#f010f0;
-  --primary4:#eed0ee;
-  --primary5:#191e2e;
-  --primary6:#2a2e3a;
-  --primary7:#091a50;
-  --primary8:#072380;
-  --primary9:#0669aa;
-  --primary10:#013629;
-  --primary11:#1b011f;
-  --primary12:#106b6b;
-  --primary13:#004242;
-  --primary14:#00c7c7;
-  --primary15:#00658d;
+  --primary-dark:#0d3b2c;
+  --primary:#1a5f4a;
+  --primary-light:#2d8b6f;
+  --primary-lighter:#40a88a;
   /* Gradients */
   --gradient-primary:linear-gradient(135deg, #0d47a1 0%, #42a5f5 100%);
   --r-gradient-primary2:radial-gradient(#0b7ee4, #053886);
@@ -384,6 +372,7 @@
   --yellow-box-shadow:0 0 3px #fce07b46;
   --brown-box-shadow:0 0 3px #5f280246;
   --brown-box-shadow2:0 0.1rem 1rem rgba(165, 88, 1, 0.7);
+  --shadow-green:0 4px 20px rgba(26, 95, 74, 0.2);
   --text-shadow:0 0 4px #fff;
   --text-shadow2:0 0 3px #ffffff7c;
   --text-shadow3:0 0 3px rgba(80, 80, 80, 0.315);
@@ -757,6 +746,32 @@ img {
 }
 
 /***************** BUTTONS ******************/
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-xs);
+  padding: var(--space-md) var(--space-xl);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  border-radius: var(--radius-sm);
+  transition: all var(--transition-normal);
+  overflow: hidden;
+  color: var(--white);
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+  border: none;
+  outline: none;
+  box-shadow: var(--shadow-green);
+  position: relative;
+}
+
+.btn-lg {
+  padding: var(--space-md) var(--space-xl);
+  font-size: var(--text-base);
+}
+
 .black-btn {
   display: inline-block;
   padding: 0.7rem 1rem;
