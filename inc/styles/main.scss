@@ -173,6 +173,7 @@
        --muted-green3:#00A97F;
        --muted-green4:#17795E;
        --muted-green5:#1a5f4a;
+       --muted-green6:#124737;
 
        --olive:#eff7f7;
        --olive1:#e5f5f5;
@@ -345,11 +346,23 @@
        --color-dark-varient:#677483;
 
        /* Shadows */
+       --box-shadow:0 0 2px #eeeeee50;
+       --box-shadow1:0 0 2px #eeeeee27;
+       --box-shadow2:0 0 3px #9e9d9d38;
+       --box-shadow3:0 0 3px #7e7d7d21;
+       --box-shadow4:0 0 3px #252c2c2f;
+       --box-shadow5:0 0 6px rgba(0, 0, 0, 0.13);
+       --box-shadow6:0 0 3px rgba(2, 2, 2, 0.199);
+       --box-shadow7:0 0 3px rgba(27, 27, 27, 0.116);
+       --box-shadow8:0 0 6px rgba(2, 2, 2, 0.199);
+       --box-shadow9:-5px 0 5px -5px rgba(0, 0, 0, 0.5), 5px 0 5px -5px rgba(0, 0, 0, 0.5);
+
        --shadow-sm:0 1px 2px 0 rgba(0, 0, 0, 0.05);
        --shadow-md:0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-       --shadow-lg:0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-       --shadow-xl:0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-       --shadow-2xl:0 25px 50px -12px rgba(0, 0, 0, 0.25);
+       --shadow-lg:0 5px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+       --shadow-2xl:0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+       --shadow-3xl:0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+       --shadow-4xl:0 25px 50px -12px rgba(0, 0, 0, 0.25);
        --shadow-hover:0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 
        /* Font Sizes - Fluid Scale */
@@ -371,12 +384,13 @@
        --space-xs:0.5rem;
        --space-sm:0.75rem;
        --space-md:1rem;
-       --space-lg:1.5rem;
-       --space-xl:2rem;
-       --space-2xl:3rem;
-       --space-3xl:4rem;
-       --space-4xl:6rem;
-       --space-5xl:8rem;
+       --space-lg:1.25rem;
+       --space-xl:1.5rem;
+       --space-2xl:2rem;
+       --space-3xl:3rem;
+       --space-4xl:4rem;
+       --space-5xl:6rem;
+       --space-6xl:8rem;
 
        --spacing-2xl-xl:3rem 2rem;
 
@@ -387,17 +401,6 @@
        --tracking-wide:0.05em;
        --tracking-wider:0.1em;
        --tracking-widest:0.2em;
-
-       --box-shadow:0 0 2px #eeeeee50;
-       --box-shadow1:0 0 2px #eeeeee27;
-       --box-shadow2:0 0 3px #9e9d9d38;
-       --box-shadow3:0 0 3px #7e7d7d21;
-       --box-shadow4:0 0 3px #252c2c2f;
-       --box-shadow5:0 0 6px rgba(0, 0, 0, 0.13);
-       --box-shadow6:0 0 3px rgba(2, 2, 2, 0.199);
-       --box-shadow7:0 0 3px rgba(27, 27, 27, 0.116);
-       --box-shadow8:0 0 6px rgba(2, 2, 2, 0.199);
-       --box-shadow9:-5px 0 5px -5px rgba(0, 0, 0, 0.5), 5px 0 5px -5px rgba(0, 0, 0, 0.5);
 
        --orange-box-shadow:0 0 3px #d47a032f;
        --red-box-shadow:0 0.1rem 1rem #e9290779;
@@ -615,7 +618,7 @@ html {font-size:83% !important;
   # GLOBAL
  ===========
 */
-section {padding:3rem 7%;
+section {padding:4rem 7%;
          margin:0 !important;
          transition:padding-top 0.05s ease;
 
@@ -708,8 +711,8 @@ img {max-width:100%;
             outline:none;
             background-color:var(--black2);
             transition:all 0.6s linear;
-        &:hover {color:var(--black2);
-                 background-color:transparent;}
+    &:hover {color:var(--black2);
+             background-color:transparent;}
 }
 
 .add-btn {display:inline-block;
@@ -739,9 +742,9 @@ img {max-width:100%;
             border:1.5px solid var(--black2);
             transition:all 0.3s linear;
 
-        &:hover {border:1.5px solid var(--black2);
-                 color:var(--white2);
-                 background-color:var(--black2);}
+    &:hover {border:1.5px solid var(--black2);
+             color:var(--white2);
+             background-color:var(--black2);}
 }
 
 .btn {display:inline-block;
@@ -885,7 +888,7 @@ img {max-width:100%;
 }
 
 .section-header {text-align:center;
-                 margin-bottom:var(--space-3xl);
+                 margin-bottom:var(--space-4xl);
                  position:relative;
 
     .section-header-subtitle {font-size:var(--text-sm);
@@ -914,17 +917,17 @@ img {max-width:100%;
 
 .pass-input {position:relative;
 
-  .passeye {position:absolute;
-            top:50%;
-            transform:translateY(-50%);
-            right:1rem;
-
-    .fa-eye,
-    .fa-eye-slash {color:var(--gray10);
-                   cursor:pointer;}
-
-    .fa-eye {display:none;}
-  }
+    .passeye {position:absolute;
+              top:50%;
+              transform:translateY(-50%);
+              right:1rem;
+  
+      .fa-eye,
+      .fa-eye-slash {color:var(--gray10);
+                     cursor:pointer;}
+  
+      .fa-eye {display:none;}
+    }
 }
 
 /*** Pagination ***/
@@ -1538,23 +1541,23 @@ img {max-width:100%;
 
     .tabs-holder {display:flex;
                   justify-content:center;
-                  gap:var(--space-2);
-                  margin-bottom:var(--space-12);
-                  flex-wrap:wrap;
+                  gap:var(--space-md);
+                  margin-bottom:var(--space-3xl);
+                  flex-wrap:wrap;                  
 
-        .filter-btn {padding:var(--space-3) var(--space-6);
+        .filter-btn {padding:var(--space-sm) var(--space-xl);
                      font-size:var(--text-sm);
                      font-weight:500;
-                     color:var(--gray-600);
+                     color:var(--navyblue3);
                      background:transparent;
-                     border:1px solid var(--gray-300);
+                     border:1px solid var(--lightblue3);
                      border-radius:var(--radius-full);
                      transition:all var(--transition-normal);
 
             &:hover,
-            &.active {color:var(--white);
-                      background:var(--primary);
-                      border-color:var(--primary);}
+            &.button-active {color:var(--white);
+                             background:var(--primary);
+                             border-color:var(--primary);}
         }
     }
 
@@ -1562,12 +1565,13 @@ img {max-width:100%;
                       grid-template-columns:repeat(4, 1fr);
                       gap:var(--space-xl);
 
-        .product-card {position:relative;
+        .product-card {display:none;
                        background:var(--white);
                        border-radius:var(--radius-lg);
                        overflow:hidden;
                        transition:all var(--transition-normal);
-                       animation:fadeInUp 0.5s ease forwards;
+                       position:relative;
+                       box-shadow:var(--box-shadow3);
 
             .product-image {position:relative;
                             height:300px;
@@ -1675,20 +1679,20 @@ img {max-width:100%;
                 .product-price {display:flex;
                                 justify-content:center;
                                 align-items:center;
-                                gap:var(--space-xs);
+                                gap:var(--space-sm);
 
-                    .current {font-size:var(--text-xl);
+                    .current {font-size:var(--text-lg);
                               font-weight:600;
-                              color:var(-muted-green5);}
+                              color:var(--muted-green6);}
 
-                    .original {font-size:var(--text-lg);
+                    .original {font-size:var(--text-md);
                                color:var(--navyblue);
-                               text-decoration:line-through;}
+                               text-decoration:line-through !important;}
                 }
             }
 
             &:hover {transform:translateY(-10px);
-                     box-shadow:var(--shadow-xl);}
+                     box-shadow:var(--box-shadow4);}
 
             &:hover .product-image img {transform:scale(1.1);}
 
@@ -1696,6 +1700,11 @@ img {max-width:100%;
                                       transform:translateX(0);}
 
             &:hover .add-card-btn {transform:translateY(0);}
+
+            &.item-active {display:block;
+                           height:auto;
+                           animation:fadeInUp 0.5s ease forwards;
+                           pointer-events:auto;}
 
             @keyframes fadeInUp {
                 from {
